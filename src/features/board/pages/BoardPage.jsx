@@ -9,7 +9,7 @@ import { ArrowLeft, Users, Settings } from 'lucide-react';
 
 const BoardContent = ({ project }) => {
   const navigate = useNavigate();
-  const { getTaskById, deleteTask, getBoardByProject ,updateTask } = useBoard();
+  const { deleteTask, getBoardByProject, updateTask } = useBoard();
   const [selectedTask, setSelectedTask] = useState(null);
 
   const handleTaskClick = (task) => setSelectedTask(task);

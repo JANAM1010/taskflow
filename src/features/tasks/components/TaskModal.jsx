@@ -40,7 +40,7 @@ const TaskModal = ({ task, onClose, onUpdate, onDelete }) => {
     project?.members?.includes(u.id)
   );
 
-  const assignedUser = users.find(u => u.id === editedTask.assignee);
+  // const assignedUser = users.find(u => u.id === editedTask.assignee);
 
   const handleUpdate = (field, value) => {
     const updated = { ...editedTask, [field]: value };

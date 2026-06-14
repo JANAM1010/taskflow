@@ -1,9 +1,5 @@
 import React, { useState } from 'react';
-import {
-  DndContext, DragOverlay, closestCorners,
-  PointerSensor, useSensor, useSensors
-} from '@dnd-kit/core';
-import { arrayMove } from '@dnd-kit/sortable';
+import {DndContext, DragOverlay, closestCorners,PointerSensor, useSensor, useSensors} from '@dnd-kit/core';
 import { useBoard } from '../context/BoardContext';
 import Column from './Column';
 import TaskCard from './TaskCard';
