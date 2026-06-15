@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider } from '../features/auth/context/AuthContext';
 import { ProjectProvider } from '../features/projects/context/ProjectContext';
 import { ThemeProvider } from '../context/ThemeContext';
@@ -15,7 +15,7 @@ import NotFoundPage from '../pages/NotFoundPage';
 
 const AppRouter = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <ThemeProvider>
         <AuthProvider>
           <ProjectProvider>
@@ -34,7 +34,7 @@ const AppRouter = () => {
           </ProjectProvider>
         </AuthProvider>
       </ThemeProvider>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 

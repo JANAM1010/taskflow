@@ -1,4 +1,4 @@
-export { mockUsers } from './users';
-export { mockProjects } from './projects';
-export { mockTasks } from './tasks';
-export { mockBoards } from './boards';
+export const mockUsers = [];
+export const mockProjects = [];
+export const mockTasks = [];
+export const mockBoards = [];

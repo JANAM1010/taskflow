@@ -2,7 +2,6 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../../auth/context/AuthContext';
 import { useProjects } from '../../projects/context/ProjectContext';
-// import { mockUsers } from '../../../mock';
 import { FolderKanban, CheckCircle, Clock, ArrowRight, TrendingUp } from 'lucide-react';
 import MainLayout from '../../../shared/components/layout/MainLayout';
 
